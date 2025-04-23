@@ -1,0 +1,87 @@
+body {
+}
+.img1 {
+  width: 400px;
+}
+
+.sect1 {
+  background-color: rgb(47, 29, 11);
+  padding: 5px;
+}
+
+nav {
+  width: 50%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-decoration: none;
+  background-color: rgb(118, 68, 17);
+  padding: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+h2,
+h1 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 600px;
+  margin-bottom: 2px;
+  font-family: Arial;
+}
+
+h6 {
+  font-size: small;
+  text-align: center;
+  margin-top: 0px;
+}
+
+h5 {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: 50px;
+}
+.section2 {
+  /* background-color: rgba(66, 43, 13, 0.781); */
+  background-color: #dbb88e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+.img2 {
+  width: 320px;
+  border-radius: 45px;
+  height: 280px;
+}
+button {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(47, 29, 11);
+  color: white;
+}
+.reviews {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: none;
+  margin-top: 30px;
+}
+.box1,
+.box2,
+.box3 {
+  background-color: rgba(122, 78, 20, 0.78);
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+}
+.section3 {
+  background-color: rgba(162, 98, 14, 0.78);
+  padding: 50px;
+  text-align: center;
+}
