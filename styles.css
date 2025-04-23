@@ -1,87 +1,163 @@
+:root{
+    --main-color: #ccae95;
+    --secondary-color: #7f5d3e;
+	--primary-color: #564a3d;
+    --tertiary-color: #4a3c2a;
+    --quaternary-color: #1a0c01;
+    --text-color: #c4c4c4;
+    --text-color-dark: #3f2a2a;
+    --text-color-darker: #3c3c3c;
+    --text-font-family: 'Pacifico, Courier New', Courier, monospace;
+}
+
+
 body {
+  margin: 0;
+  padding: 0;
 }
-.img1 {
-  width: 400px;
-}
+
+/*=============================
+    Header Section
+=============================
+ */
 
 .sect1 {
-  background-color: rgb(47, 29, 11);
-  padding: 5px;
+	background-color: var(--quaternary-color);
+	color: var(--text-color);
+	padding: 5px;
+	text-align: center;
+}
+.sect1 header {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-nav {
-  width: 50%;
-}
+/*****NAV LINKS*****/
 
 nav ul {
-  display: flex;
-  justify-content: space-between;
-  list-decoration: none;
-  background-color: rgb(118, 68, 17);
-  padding: 5px;
+	list-style: none;
+	display: flex;
+	background-color: #692b24;
+	padding: 0;
+	border-radius: 10px;
+	gap: 10px;
+
+}
+nav ul li {
+	padding: 10px;
+}
+nav ul li:hover {
+	background: white;
+	color: black;
+	border-radius: 10px;
 }
 
-header {
-  display: flex;
-  justify-content: center;
+
+.sect1-text{
+    font-family: "Handlee", cursive;
+    font-weight: normal;
+    color: var(--text-color);
+    margin-bottom: 0;
+	line-height: 0;
+}
+.header-text{
+	font-size: 3em;
+}
+.header-sub-text{
+    font-size: 2em;
+    margin-top: 2px;
 }
 
-h2,
-h1 {
-  font-size: 35px;
-  text-align: center;
-  font-weight: 600px;
-  margin-bottom: 2px;
-  font-family: Arial;
-}
 
-h6 {
-  font-size: small;
-  text-align: center;
-  margin-top: 0px;
-}
 
-h5 {
-  margin-top: 0px;
-  font-size: 20px;
-  font-weight: 50px;
-}
+/*=======================================
+	Section 2 Discover Coffee
+===========================================
+*/
 .section2 {
   /* background-color: rgba(66, 43, 13, 0.781); */
-  background-color: #dbb88e;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 30px;
+	background-color: var(--main-color);
+	display: flex;
+	justify-content: center;
+	gap: 10%;
+	padding: 30px 0;
 }
+
 .img2 {
   width: 320px;
   border-radius: 45px;
   height: 280px;
 }
-button {
-  width: 150px;
-  height: 30px;
-  background-color: rgb(47, 29, 11);
-  color: white;
+
+.right-side-text {
+  line-height: 0.2em;
 }
-.reviews {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  gap: none;
-  margin-top: 30px;
+
+.right-side-text h1 {
+	font-size: 2em;
+	color: var(--quaternary-color);
+	font-weight: bold;
 }
-.box1,
-.box2,
-.box3 {
-  background-color: rgba(122, 78, 20, 0.78);
-  padding: 20px;
-  border-radius: 20px;
-  width: 300px;
+.right-side-text h3{
+	font-size: 1.2em;
+	font-weight: normal;
+	color: var(--quaternary-color);
 }
+
+.right-side button {
+	margin-top: 15px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(47, 29, 11);
+    color: white;
+	border: none;
+}
+
+
+/*=============================
+	SECTION 3  Coffee Types
+===============================
+*/
 .section3 {
-  background-color: rgba(162, 98, 14, 0.78);
-  padding: 50px;
-  text-align: center;
+	background-color: var(--primary-color);
+	padding: 50px;
+	text-align: center;
+	color: var(--text-color);
+}
+.section3-text {
+	line-height: 0;
+	margin-bottom: 3em;
+}
+
+.section3-text h2{
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.section3-text p{
+	font-size: 1.6em;
+	font-weight: normal;
+
+}
+
+.reviews {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	margin-top: 30px;
+}
+
+.box {
+	padding: 20px 10px 10px 10px;
+	border-radius: 10px;
+	font-size: large;
+	background: var(--main-color);
+	color: var(--quaternary-color);
+	width: 300px;
+}
+
+.box>p{
+	color: blue;
 }
