@@ -157,9 +157,35 @@ nav ul li:hover {
 .box > p {
   color: blue;
 }
-.section4 {
+
+/*
+=======================================================
+  Section 4  Footer
+=======================================================
+*/
+footer {
+  padding: 60px 30px;
   background-color: var(--quaternary-color);
-  display: grid;
+  color: white;
+  display: flex;
   align-items: center;
   justify-content: center;
+  gap: 50px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.contact-form{
+  display: grid;
+}
+
+.contact-form input {
+    width: 350px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    margin-bottom: 10px;
 }
