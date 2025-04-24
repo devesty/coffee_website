@@ -1,15 +1,14 @@
-:root{
-    --main-color: #ccae95;
-    --secondary-color: #7f5d3e;
-	--primary-color: #564a3d;
-    --tertiary-color: #4a3c2a;
-    --quaternary-color: #1a0c01;
-    --text-color: #c4c4c4;
-    --text-color-dark: #3f2a2a;
-    --text-color-darker: #3c3c3c;
-    --text-font-family: 'Pacifico, Courier New', Courier, monospace;
+:root {
+  --main-color: #ccae95;
+  --secondary-color: #7f5d3e;
+  --primary-color: #564a3d;
+  --tertiary-color: #4a3c2a;
+  --quaternary-color: #1a0c01;
+  --text-color: #c4c4c4;
+  --text-color-dark: #3f2a2a;
+  --text-color-darker: #3c3c3c;
+  --text-font-family: "Pacifico, Courier New", Courier, monospace;
 }
-
 
 body {
   margin: 0;
@@ -22,55 +21,51 @@ body {
  */
 
 .sect1 {
-	background-color: var(--quaternary-color);
-	color: var(--text-color);
-	padding: 5px;
-	text-align: center;
+  background-color: var(--quaternary-color);
+  color: var(--text-color);
+  padding: 5px;
+  text-align: center;
 }
 .sect1 header {
-	padding: 20px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*****NAV LINKS*****/
 
 nav ul {
-	list-style: none;
-	display: flex;
-	background-color: #692b24;
-	padding: 0;
-	border-radius: 10px;
-	gap: 10px;
-
+  list-style: none;
+  display: flex;
+  background-color: #692b24;
+  padding: 0;
+  border-radius: 10px;
+  gap: 10px;
 }
 nav ul li {
-	padding: 10px;
+  padding: 10px;
 }
 nav ul li:hover {
-	background: white;
-	color: black;
-	border-radius: 10px;
+  background: white;
+  color: black;
+  border-radius: 10px;
 }
 
-
-.sect1-text{
-    font-family: "Handlee", cursive;
-    font-weight: normal;
-    color: var(--text-color);
-    margin-bottom: 0;
-	line-height: 0;
+.sect1-text {
+  font-family: "Handlee", cursive;
+  font-weight: normal;
+  color: var(--text-color);
+  margin-bottom: 0;
+  line-height: 0;
 }
-.header-text{
-	font-size: 3em;
+.header-text {
+  font-size: 3em;
 }
-.header-sub-text{
-    font-size: 2em;
-    margin-top: 2px;
+.header-sub-text {
+  font-size: 2em;
+  margin-top: 2px;
 }
-
-
 
 /*=======================================
 	Section 2 Discover Coffee
@@ -78,11 +73,11 @@ nav ul li:hover {
 */
 .section2 {
   /* background-color: rgba(66, 43, 13, 0.781); */
-	background-color: var(--main-color);
-	display: flex;
-	justify-content: center;
-	gap: 10%;
-	padding: 30px 0;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  padding: 30px 0;
 }
 
 .img2 {
@@ -96,68 +91,72 @@ nav ul li:hover {
 }
 
 .right-side-text h1 {
-	font-size: 2em;
-	color: var(--quaternary-color);
-	font-weight: bold;
+  font-size: 2em;
+  color: var(--quaternary-color);
+  font-weight: bold;
 }
-.right-side-text h3{
-	font-size: 1.2em;
-	font-weight: normal;
-	color: var(--quaternary-color);
+.right-side-text h3 {
+  font-size: 1.2em;
+  font-weight: normal;
+  color: var(--quaternary-color);
 }
 
 .right-side button {
-	margin-top: 15px;
-    width: 150px;
-    height: 30px;
-    background-color: rgb(47, 29, 11);
-    color: white;
-	border: none;
+  margin-top: 15px;
+  width: 150px;
+  height: 30px;
+  background-color: rgb(47, 29, 11);
+  color: white;
+  border: none;
 }
-
 
 /*=============================
 	SECTION 3  Coffee Types
 ===============================
 */
 .section3 {
-	background-color: var(--primary-color);
-	padding: 50px;
-	text-align: center;
-	color: var(--text-color);
+  background-color: var(--primary-color);
+  padding: 50px;
+  text-align: center;
+  color: var(--text-color);
 }
 .section3-text {
-	line-height: 0;
-	margin-bottom: 3em;
+  line-height: 0;
+  margin-bottom: 3em;
 }
 
-.section3-text h2{
-	font-size: 3em;
-	font-weight: bold;
+.section3-text h2 {
+  font-size: 3em;
+  font-weight: bold;
 }
 
-.section3-text p{
-	font-size: 1.6em;
-	font-weight: normal;
-
+.section3-text p {
+  font-size: 1.6em;
+  font-weight: normal;
 }
 
 .reviews {
-	display: flex;
-	justify-content: center;
-	gap: 40px;
-	margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
 }
 
 .box {
-	padding: 20px 10px 10px 10px;
-	border-radius: 10px;
-	font-size: large;
-	background: var(--main-color);
-	color: var(--quaternary-color);
-	width: 300px;
+  padding: 20px 10px 10px 10px;
+  border-radius: 10px;
+  font-size: large;
+  background: var(--main-color);
+  color: var(--quaternary-color);
+  width: 300px;
 }
 
-.box>p{
-	color: blue;
+.box > p {
+  color: blue;
+}
+.section4 {
+  background-color: var(--quaternary-color);
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
