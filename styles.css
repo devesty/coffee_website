@@ -21,11 +21,23 @@ body {
  */
 
 .sect1 {
+  position: relative;
   background-color: var(--quaternary-color);
   color: var(--text-color);
   padding: 5px;
   text-align: center;
+  height: 400px;
 }
+
+.image-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 600px;
+  height: 500px;
+  /* border: 2px solid red; */
+}
+
 .sect1 header {
   padding: 20px;
   display: flex;
@@ -67,7 +79,8 @@ nav ul li:hover {
   margin-top: 2px;
 }
 .background-image {
-  width: 400px;
+  width: 100%;
+  height: 100%;
 }
 
 /*=======================================
@@ -177,15 +190,56 @@ footer ul {
   list-style: none;
 }
 
-.contact-form{
+footer button {
+  background-color: var(--main-color);
+  width: 100px;
+  height: 28px;
+  border-radius: 8px;
+}
+
+.contact-form {
   display: grid;
 }
 
 .contact-form input {
-    width: 350px;
-    height: 35px;
-    border-radius: 10px;
-    border: none;
-    padding-left: 10px;
-    margin-bottom: 10px;
+  width: 250px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.contact-us-text {
+  line-height: 0;
+  margin-bottom: 3em;
+}
+
+.contact-us-text h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.contact-us-text p {
+  font-size: 1em;
+  font-weight: 100px;
+}
+.site-map-text {
+  line-height: 0;
+  margin-bottom: 3em;
+}
+
+.site-map-text h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.site-map-text p {
+  font-size: 1em;
+  font-weight: 100px;
+}
+.attribute {
+  text-align: center;
+  background-color: var(--main-color);
+  padding: 10px;
+  font-size: small;
 }
